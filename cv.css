@@ -63,15 +63,20 @@ div.sub-head {
 
 h1 {
   margin-bottom: 15px;
-  color: rgba(255, 255, 255, 0.315);
+  font-size: 50px;
+  color: #fff;
+}
+
+p.first-p {
+  width: 100vh;
+  margin: auto;
 }
 
 div.bio {
   display: flex;
   background-color: #f0f0f0;
-  background-image: url(./pic-2.jpg);
+  background-image: url(./pic-3.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   justify-content: space-between;
   height: 60vh;
@@ -160,6 +165,13 @@ div.pic {
   box-shadow: 10px 7px 10px 10px rgb(135 135 135 / 70%);
 }
 
+div.img {
+  width: 120px;
+  height: 120px;
+  margin: 35px;
+  background-color: black;
+  border-radius: 50%;
+}
 img {
   width: 120px;
   height: 120px;
@@ -180,16 +192,13 @@ footer {
   text-transform: uppercase;
   background-color: #f0f0f0;
   text-align: center;
-  height: 30vh;
-  padding-top: 50px;
 }
 div.footer {
-  box-shadow: 10px 7px 10px 10px rgb(135 135 135 / 70%);
   width: 158px;
   margin: auto;
   background-color: black;
   color: white;
 }
 div.footer p {
-  font-size: 30px;
+  font-size: 10px;
 }

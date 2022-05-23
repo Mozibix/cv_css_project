@@ -6,8 +6,9 @@
 }
 
 body {
-  background-image: url(./pic-2.jpg);
-  background-repeat: repeat;
+  background-image: url(./pic-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 div.about {
   text-align: center;
